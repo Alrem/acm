@@ -23,6 +23,6 @@ subjects:
   namespace: config-management-system
 roleRef:
   kind: ClusterRole
-  name: admin
+  name: cluster-admin
   apiGroup: rbac.authorization.k8s.io
 # [END anthosconfig_config_sync_quickstart_multirepo_root_role_binding_gamestore_admin]
